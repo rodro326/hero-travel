@@ -1,0 +1,614 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-image {
+    display: flex;
+    gap: 1rem;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+header {
+    max-width: 1300px;
+    margin: 50px 170px;
+}
+
+/* banner section  */
+.banner-container {
+    position: relative;
+    max-width: 1070px;
+    margin: 50px auto;
+    height: 500px;
+    background-image: url("Images/Group 13 (1) (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.banner-text-description {
+    position: absolute;
+    margin-top: 250px;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 18rem;
+    color: #fff;
+
+}
+
+.banner-inputes {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    margin-top: 400px;
+    align-items: center;
+    margin-left: 12rem;
+}
+
+.banner-inputes input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.banner-inputes input[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* shared button */
+.btn-secondary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF5400;
+    padding: 10px 15px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+/* popular-tourist-section style is here */
+.popular-tourist-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 50px 170px;
+    gap: 20px;
+}
+
+.popular-image {
+    height: 360px;
+}
+
+/* Destination style */
+.destination-text {
+    color: #131318;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-top: -2rem;
+}
+
+/* Destination-image-part */
+.Destination-image-part {
+    max-width: 1300px;
+    margin: 50px 130px;
+}
+
+.Destination-image-part-1 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.Destination-Maldive-image-text {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Destination-indonesia-image-text {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Destination-image-part-2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 110px;
+}
+
+.Srilanka {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 6rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.north-america {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 5.5rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.kashmir {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 3rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Destination-image-part-3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.Bangladesh {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 3rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Bandarban {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+/* why chose-us style is here */
+.chose-us {
+    margin-top: 8rem;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 50px 120px;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-left: 30rem;
+    padding: 1rem;
+    margin-top: -1rem;
+}
+
+/* deals and Discounted banner image 1 style */
+.deals-part-1 {
+    border-radius: 16px;
+    background: url("Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+    max-width: 1300px;
+    margin: 50px 170px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.deals-part-1-text {
+    width: 579px;
+    height: 280px;
+    margin-left: 28rem;
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 2rem;
+}
+
+.items {
+    display: flex;
+    gap: .65rem;
+}
+
+
+.icons-image-1 {
+    width: 60px;
+    height: 50px;
+    margin-left: 1rem;
+}
+
+/* deals and Discounted banner image 2 style */
+.deals-part-2 {
+    border-radius: 16px;
+    background: url("Images/Group 40.png"), lightgray 50% / cover no-repeat;
+    max-width: 1300px;
+    margin: 50px 170px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.deals-part-2-text {
+    width: 579px;
+    height: 280px;
+    margin-left: 2rem;
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 2rem;
+}
+
+.items {
+    display: flex;
+    gap: .65rem;
+}
+
+
+.icons-image-1 {
+    width: 60px;
+    height: 50px;
+    margin-left: 1rem;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+
+.tour {
+    color: #131318;
+    font-size: 24px;
+
+}
+
+#sell-all {
+    margin-left: 35rem;
+    border-radius: 8px;
+    padding: 10px;
+    background: #FF5400;
+    color: #fff;
+
+}
+
+/* perfect-place */
+.perfect-place-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 50px 170px;
+    gap: 20px;
+}
+
+.perfect-place-image {
+    height: 280px;
+}
+
+.perfect-place {
+    padding: 10px;
+}
+
+.perfect-place-text {
+    position: relative;
+    margin-top: -260px;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+}
+
+/* Newsletter section */
+.Newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 50px 120px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.name {
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    border-radius: 1rem;
+
+}
+
+.email {
+    padding: 1rem;
+    margin-bottom: .8rem;
+    border-radius: 1rem;
+
+}
+
+.newsletter {
+    padding: 1.25rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-image {
+    border-radius: 16px;
+    background: url("Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+    width: 672px;
+    height: 422px;
+}
+
+.save-70 {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 250px;
+    height: 110px;
+    transform: rotate(-21.628deg);
+    margin-top: 15rem;
+    margin-left: 20rem;
+}
+
+.save-70 p {
+    text-align: center;
+    padding: 10px;
+}
+
+.save-70 h1 {
+    text-align: center;
+}
+
+/* footer style */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-description {
+    text-align: center;
+}
+
+.footer-icons {
+    margin-left: 40rem;
+}
+
+.Copy-right {
+    text-align: center;
+}
+
+/* Mobile Styles (max-width: 576px) */
+@media screen and (max-width: 576px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+    .header{
+        margin: 60px 335px;
+        margin-left: 20rem;
+    }
+    .body{
+        margin: 0px;
+
+    }
+
+    /* Banner Section */
+    .banner-text {
+        top: 10%;
+    }
+
+    .banner-text-description {
+        margin-left: 0rem;
+        margin-top: 210px;
+    }
+
+    .banner-inputes {
+        margin-left: 4rem;
+        margin-top: 275px;
+        flex-direction: column;
+    }
+
+    /* Popular Tour Section */
+    .popular-tourist-section {
+        flex-direction: column;
+        margin: 12px 8px;
+    }
+
+    /* Destination Image Part */
+    .Destination-image-part-1{
+        flex-direction: column;
+        gap: 110px;
+        margin-left: -8rem;
+    }
+    .Destination-image-part-2 {
+        flex-direction: column;
+        margin-left: -8rem;
+        gap: 50px;
+    }
+    .Destination-image-part-3 {
+        flex-direction: column;
+        margin-left: 7rem;
+        gap: 7rem;
+    }
+    /* Card Section */
+    .card {
+        flex-direction: column;
+    }
+
+    .card-2 {
+        margin-left: -7rem;
+        width: 18rem;
+        height: 16rem;
+    }
+
+    .card-1 {
+        margin-left: -7rem;
+        width: 18rem;
+        height: 16rem;
+    }
+
+    .card-3 {
+        width: 18rem;
+        height: 16rem;
+        margin-left: 1rem;
+    }
+    #sell-all {
+        margin-left: 17rem;
+    }
+    .save-70{
+        margin-left: 2rem;
+    }
+
+    /* Newsletter Section */
+    .Newsletter-section {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        width: 370px;
+        margin-top: 9rem;
+        margin-left: -6rem;
+    }
+
+    .newsletter-image {
+        margin-top: 2rem;
+        margin-left: -6rem;
+    }
+
+    /* Perfect Place Section */
+    .perfect-place-section {
+        flex-direction: column;
+        margin: -6px;
+        margin-left: 3rem;
+    }
+
+    /* Deals Part */
+    .deals-part-1,
+    .deals-part-2,
+    .deals-part-3 {
+        margin: -3px -430px;
+        width: 68rem;
+    }
+
+    .deals-part-2-text {
+        margin-left: 28rem;
+    }
+
+    /* Footer Icons */
+    .footer-icons {
+        margin-left: 2rem;
+    }
+
+    .footer {
+        width: 417px;
+        height: 422px;
+    }
+
+    .perfect-place-image {
+        width: 417px;
+        height: 422px;
+    }
+
+    .perfect-place {
+        width: 417px;
+        height: 422px;
+    }
+    .newsletter-image{
+        width: 417px;
+        height: 422px; 
+    }
+    .banner-container {
+     width: 28rem;
+    }
+}
